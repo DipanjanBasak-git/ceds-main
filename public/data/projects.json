@@ -7,7 +7,12 @@
     "startDate": "January 2021",
     "endDate": "December 2023",
     "funding": "₹50 Lakhs (DST Grant)",
-    "team": ["Dr. Rajesh Kumar", "Dr. Amit Patel", "Arjun Sharma", "Priyanka Singh"],
+    "team": [
+      "Dr. Rajesh Kumar",
+      "Dr. Amit Patel",
+      "Arjun Sharma",
+      "Priyanka Singh"
+    ],
     "status": "completed",
     "progress": 100,
     "currentPhase": "Validation",
@@ -27,7 +32,12 @@
     "startDate": "March 2020",
     "endDate": "February 2023",
     "funding": "₹75 Lakhs (Industry Partnership)",
-    "team": ["Dr. Sneha Gupta", "Dr. Priya Sharma", "Rohit Kumar", "Karthik Reddy"],
+    "team": [
+      "Dr. Sneha Gupta",
+      "Dr. Priya Sharma",
+      "Rohit Kumar",
+      "Karthik Reddy"
+    ],
     "status": "completed",
     "progress": 100,
     "currentPhase": "Deployment Complete",
@@ -47,7 +57,11 @@
     "startDate": "June 2019",
     "endDate": "May 2022",
     "funding": "₹40 Lakhs (SERB Grant)",
-    "team": ["Dr. Priya Sharma", "Neha Gupta", "Siddharth Jain"],
+    "team": [
+      "Dr. Priya Sharma",
+      "Neha Gupta",
+      "Siddharth Jain"
+    ],
     "status": "completed",
     "progress": 100,
     "currentPhase": "Research Complete",
@@ -67,7 +81,11 @@
     "startDate": "April 2021",
     "endDate": "March 2024",
     "funding": "₹60 Lakhs (Government Partnership)",
-    "team": ["Dr. Amit Patel", "Anita Patel", "Riya Agarwal"],
+    "team": [
+      "Dr. Amit Patel",
+      "Anita Patel",
+      "Riya Agarwal"
+    ],
     "status": "completed",
     "progress": 100,
     "currentPhase": "Scaling Complete",
@@ -87,7 +105,11 @@
     "startDate": "January 2024",
     "endDate": "December 2026",
     "funding": "₹80 Lakhs (DST Quantum Grant)",
-    "team": ["Dr. Rajesh Kumar", "Dr. Vikram Singh", "Arjun Sharma"],
+    "team": [
+      "Dr. Rajesh Kumar",
+      "Dr. Vikram Singh",
+      "Arjun Sharma"
+    ],
     "status": "ongoing",
     "progress": 35,
     "currentPhase": "Algorithm Development",
@@ -102,7 +124,12 @@
     "startDate": "March 2024",
     "endDate": "February 2027",
     "funding": "₹1.2 Crores (Industry Consortium)",
-    "team": ["Dr. Priya Sharma", "Dr. Sneha Gupta", "Priyanka Singh", "Rohit Kumar"],
+    "team": [
+      "Dr. Priya Sharma",
+      "Dr. Sneha Gupta",
+      "Priyanka Singh",
+      "Rohit Kumar"
+    ],
     "status": "ongoing",
     "progress": 25,
     "currentPhase": "Framework Design",
@@ -117,7 +144,11 @@
     "startDate": "September 2023",
     "endDate": "August 2026",
     "funding": "₹65 Lakhs (MoES Grant)",
-    "team": ["Dr. Amit Patel", "Karthik Reddy", "Neha Gupta"],
+    "team": [
+      "Dr. Amit Patel",
+      "Karthik Reddy",
+      "Neha Gupta"
+    ],
     "status": "ongoing",
     "progress": 60,
     "currentPhase": "Data Collection & Preprocessing",
@@ -132,7 +163,11 @@
     "startDate": "June 2024",
     "endDate": "May 2026",
     "funding": "₹45 Lakhs (Industry Partnership)",
-    "team": ["Dr. Sneha Gupta", "Anita Patel", "Vikash Singh"],
+    "team": [
+      "Dr. Sneha Gupta",
+      "Anita Patel",
+      "Vikash Singh"
+    ],
     "status": "ongoing",
     "progress": 20,
     "currentPhase": "Prototype Development",
@@ -147,11 +182,173 @@
     "startDate": "November 2023",
     "endDate": "October 2025",
     "funding": "₹35 Lakhs (RBI Innovation Grant)",
-    "team": ["Dr. Rajesh Kumar", "Shreya Nair"],
+    "team": [
+      "Dr. Rajesh Kumar",
+      "Shreya Nair"
+    ],
     "status": "ongoing",
     "progress": 70,
     "currentPhase": "Model Validation",
     "outcomes": [],
     "image": "/images/projects/explainable-ai-finance.png"
+  },
+  {
+    "id": 10,
+    "title": "Multimodal data representation using deep learning",
+    "type": "collaborative",
+    "description": "Collaborative project focusing on multimodal data representation using advanced deep learning techniques.",
+    "startDate": "Ongoing",
+    "endDate": "TBD",
+    "funding": "Collaborative Funding",
+    "team": [
+      "Dr. Tulika Saha (University of Liverpool)",
+      "Dr. Swarnendu Ghosh (IEM Kolkata)"
+    ],
+    "status": "ongoing",
+    "progress": 20,
+    "currentPhase": "Research & Development",
+    "outcomes": [],
+    "image": "/data/images/Multimodal data representation using deep learning.jpeg"
+  },
+  {
+    "id": 11,
+    "title": "TradeBot: Algorithmic Trading Platform",
+    "type": "grant-in-aid",
+    "description": "Algorithmic Trading Platform based on adaptive AI based variable frequency trading strategies.",
+    "startDate": "Ongoing",
+    "endDate": "TBD",
+    "funding": "Rs. 2,00,000 /-",
+    "team": [
+      "Mr. Saugata Ghosh",
+      "Dr. Swarnendu Ghosh"
+    ],
+    "status": "ongoing",
+    "progress": 15,
+    "currentPhase": "Algorithm Development",
+    "outcomes": [],
+    "image": "/data/images/TradeBot Algorithmic Trading Platform based on adaptive AI based variable frequency trading strategies.jpeg"
+  },
+  {
+    "id": 12,
+    "title": "NeuroBot: A Neural Control Interface",
+    "type": "grant-in-aid",
+    "description": "NeuroBot: A Neural Control Interface for Robotic Manipulation.",
+    "startDate": "Ongoing",
+    "endDate": "TBD",
+    "funding": "Rs. 4,00,000 /-",
+    "team": [
+      "Dr. Mousumi Laha",
+      "Dr. Swarnendu Ghosh"
+    ],
+    "status": "ongoing",
+    "progress": 10,
+    "currentPhase": "Prototyping",
+    "outcomes": [],
+    "image": "/data/images/NeuroBot A Neural Control Interface for Robotic Manipulation.jpeg"
+  },
+  {
+    "id": 13,
+    "title": "AI based automatic screening and segmentation of diabetic retinopathy images",
+    "type": "research",
+    "description": "AI based automatic screening and segmentation of diabetic retinopathy images.",
+    "startDate": "Ongoing",
+    "endDate": "TBD",
+    "funding": "Internal",
+    "team": [
+      "Nirmal Das",
+      "Swarnendu Ghosh"
+    ],
+    "status": "ongoing",
+    "progress": 10,
+    "currentPhase": "Research",
+    "outcomes": [],
+    "image": "/data/images/AI based automatic screening and segmentation of diabetic retinopathy images.jpeg"
+  },
+  {
+    "id": 14,
+    "title": "Improving Solar Panel Efficacy using GIS Data",
+    "type": "research",
+    "description": "Improving Solar Panel Efficacy using GIS Data.",
+    "startDate": "Ongoing",
+    "endDate": "TBD",
+    "funding": "Internal",
+    "team": [
+      "Ms. Anindita Das Bhattacharjee",
+      "Dr. Swarnendu Ghosh"
+    ],
+    "status": "ongoing",
+    "progress": 10,
+    "currentPhase": "Research",
+    "outcomes": [],
+    "image": "/data/images/Improving Solar Panel Efficacy using GIS Data.jpeg"
+  },
+  {
+    "id": 15,
+    "title": "Dynamic Zooming of Histopathology images using Deep Learning",
+    "type": "research",
+    "description": "Dynamic Zooming of Histopathology images using Deep Learning.",
+    "startDate": "Ongoing",
+    "endDate": "TBD",
+    "funding": "Internal",
+    "team": [
+      "Dr. Swarnendu Ghosh"
+    ],
+    "status": "ongoing",
+    "progress": 10,
+    "currentPhase": "Research",
+    "outcomes": [],
+    "image": "/data/images/Dynamic Zooming of Histopathology images using Deep Learning.jpeg"
+  },
+  {
+    "id": 16,
+    "title": "AI based Academic Assistance for GATE Examinations",
+    "type": "research",
+    "description": "AI based Academic Assistance for GATE Examinations.",
+    "startDate": "Ongoing",
+    "endDate": "TBD",
+    "funding": "Internal",
+    "team": [
+      "Dr. Swarnendu Ghosh"
+    ],
+    "status": "ongoing",
+    "progress": 10,
+    "currentPhase": "Research",
+    "outcomes": [],
+    "image": "/data/images/AI based Academic Assistance for GATE Examinations.jpeg"
+  },
+  {
+    "id": 17,
+    "title": "Radiological Image Processing using Machine Learning",
+    "type": "research",
+    "description": "Radiological Image Processing using Machine Learning.",
+    "startDate": "Ongoing",
+    "endDate": "TBD",
+    "funding": "Internal",
+    "team": [
+      "Ms. Kaushiki Roy",
+      "Dr. Swarnendu Ghosh"
+    ],
+    "status": "ongoing",
+    "progress": 10,
+    "currentPhase": "Research",
+    "outcomes": [],
+    "image": "/data/images/Radiological Image Processing using Machine Learning.jpeg"
+  },
+  {
+    "id": 18,
+    "title": "Computer vision based Fake-license-plate vehicle identification",
+    "type": "research",
+    "description": "Computer vision based Fake-license-plate vehicle identification.",
+    "startDate": "Ongoing",
+    "endDate": "TBD",
+    "funding": "Internal",
+    "team": [
+      "Mr. Subhadip Chandra"
+    ],
+    "status": "ongoing",
+    "progress": 10,
+    "currentPhase": "Research",
+    "outcomes": [],
+    "image": "/data/images/Computer vision based Fake-license-plate vehicle identification.jpeg"
   }
 ]

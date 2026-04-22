@@ -43,7 +43,7 @@ interface Dataset {
 export default function ProjectsPage() {
   const [projects, setProjects] = useState<Project[]>([])
   const [datasets, setDatasets] = useState<Dataset[]>([])
-  const [activeTab, setActiveTab] = useState<'ongoing' | 'completed'>('ongoing')
+  const [activeTab, setActiveTab] = useState<'ongoing' | 'completed' | 'collaborative' | 'grant-in-aid'>('ongoing')
 
   useEffect(() => {
     fetch('/data/projects.json')
@@ -56,7 +56,12 @@ export default function ProjectsPage() {
       .catch(() => {})
   }, [])
 
-  const filtered = projects.filter((p) => p.status === activeTab)
+  const filtered = projects.filter((p) => {
+    if (activeTab === 'ongoing' || activeTab === 'completed') {
+      return p.status === activeTab
+    }
+    return p.type === activeTab
+  })
 
   return (
     <>
@@ -81,23 +86,34 @@ export default function ProjectsPage() {
           <h2 className="text-2xl font-bold text-gray-900 mb-8 tracking-tight">Research Projects</h2>
 
           {/* Tabs */}
-          <div className="flex gap-1 mb-10 bg-gray-100 rounded-xl p-1 w-fit">
-            {(['ongoing', 'completed'] as const).map((tab) => (
-              <button
-                key={tab}
-                onClick={() => setActiveTab(tab)}
-                className={`px-5 py-2.5 rounded-lg text-sm font-medium capitalize transition-all ${
-                  activeTab === tab
-                    ? 'bg-white text-gray-900 shadow-sm'
-                    : 'text-gray-500 hover:text-gray-700'
-                }`}
-              >
-                {tab}
-                <span className="ml-2 text-xs text-gray-400">
-                  ({projects.filter((p) => p.status === tab).length})
-                </span>
-              </button>
-            ))}
+          <div className="flex gap-1 mb-10 bg-gray-100 rounded-xl p-1 w-fit flex-wrap">
+            {(['ongoing', 'completed', 'collaborative', 'grant-in-aid'] as const).map((tab) => {
+              let label = tab.charAt(0).toUpperCase() + tab.slice(1);
+              if (tab === 'collaborative') label = 'Collaborative Projects';
+              if (tab === 'grant-in-aid') label = 'Grant-in-Aid Projects';
+              
+              const count = projects.filter((p) => {
+                if (tab === 'ongoing' || tab === 'completed') return p.status === tab;
+                return p.type === tab;
+              }).length;
+
+              return (
+                <button
+                  key={tab}
+                  onClick={() => setActiveTab(tab)}
+                  className={`px-5 py-2.5 rounded-lg text-sm font-medium transition-all ${
+                    activeTab === tab
+                      ? 'bg-white text-gray-900 shadow-sm'
+                      : 'text-gray-500 hover:text-gray-700'
+                  }`}
+                >
+                  {label}
+                  <span className="ml-2 text-xs text-gray-400">
+                    ({count})
+                  </span>
+                </button>
+              )
+            })}
           </div>
 
           {/* Project cards */}
@@ -134,6 +150,20 @@ export default function ProjectsPage() {
                 </div>
 
                 <p className="text-sm text-gray-500 mb-5 leading-relaxed">{project.description}</p>
+
+                {/* Team / Mentors */}
+                {project.team && project.team.length > 0 && (
+                  <div className="mb-5">
+                    <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Mentors / Team</p>
+                    <div className="flex flex-wrap gap-2">
+                      {project.team.map((member, i) => (
+                        <span key={i} className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-primary/5 text-primary border border-primary/10">
+                          {member}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
 
                 {/* Progress bar (ongoing) */}
                 {project.status === 'ongoing' && (
