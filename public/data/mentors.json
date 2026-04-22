@@ -1,36 +1,6 @@
 [
   {
     "id": 1,
-    "name": "Dr. Somenath Kuiry",
-    "email": "somenath.kuiry@iem.edu.in",
-    "contact": "7478476819",
-    "linkedin": "",
-    "expertise": "Deep Learning, Quantum Computing",
-    "status": "mentor",
-    "image": "/data/images/self - Somenath kuiry.png"
-  },
-  {
-    "id": 2,
-    "name": "Manjarini Mallik",
-    "email": "Manjarini.Mallik@iem.edu.in",
-    "contact": "8583973399",
-    "linkedin": "https://in.linkedin.com/in/manjarini-mallik-29011b22b",
-    "expertise": "Machine Learning, Deep Learning, Indoor Localization, Natural Language Processing",
-    "status": "mentor",
-    "image": "/data/images/Manjarini - Manjarini Mallik.png"
-  },
-  {
-    "id": 3,
-    "name": "SAUGATA GHOSH",
-    "email": "saugata.ghosh@iem.edu.in",
-    "contact": "8017024589",
-    "linkedin": "www.linkedin.com/in/saugataghosh1976",
-    "expertise": "FINANCE",
-    "status": "mentor",
-    "image": "/data/images/SAUGATA GHOSH .JPG - Saugata Ghosh.jpg"
-  },
-  {
-    "id": 4,
     "name": "Subhadip Chandra",
     "email": "subhadip.chandra@iem.edu.in",
     "contact": "9332235642",
@@ -40,17 +10,7 @@
     "image": "/data/images/g12169sc (2) - subhadip chandra.jpg"
   },
   {
-    "id": 5,
-    "name": "Pabak Indu",
-    "email": "pabak.indu@iem.edu.in",
-    "contact": "9433573529",
-    "linkedin": "http://www.linkedin.com/in/pabakindu",
-    "expertise": "Cyber Security",
-    "status": "mentor",
-    "image": "/data/images/G12174PI - pabak indu.jpg"
-  },
-  {
-    "id": 6,
+    "id": 2,
     "name": "Ankita Ray Chowdhury",
     "email": "ankita.raychowdhury@iem.edu.in",
     "contact": "9874739669",
@@ -58,6 +18,46 @@
     "expertise": "Communication and Network, IoT",
     "status": "mentor",
     "image": "/data/images/ankita - ANKITA RAY CHOWDHURY.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Prof. (Dr.) Amartya Mukherjee",
+    "email": "amartya.mukherjee@iem.edu.in",
+    "contact": "",
+    "linkedin": "",
+    "expertise": "Flying Ad-Hoc Networks, IoT, Intelligent Systems, Machine Learning",
+    "status": "mentor",
+    "image": "/data/images/Amartya Mukherjee.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Prof. (Dr.) Ayan Panja",
+    "email": "ayan.panja@iem.edu.in",
+    "contact": "",
+    "linkedin": "",
+    "expertise": "Localization, Machine and Deep Learning, Sensor Networks and Sensor Clouds",
+    "status": "mentor",
+    "image": "/data/images/Ayan Panja.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Manjarini Mallik",
+    "email": "Manjarini.Mallik@iem.edu.in",
+    "contact": "8583973399",
+    "linkedin": "https://in.linkedin.com/in/manjarini-mallik-29011b22b",
+    "expertise": "Machine Learning, Deep Learning, Indoor Localization, Natural Language Processing",
+    "status": "mentor",
+    "image": "/data/images/Manjarini - Manjarini Mallik.png"
+  },
+  {
+    "id": 6,
+    "name": "Pabak Indu",
+    "email": "pabak.indu@iem.edu.in",
+    "contact": "9433573529",
+    "linkedin": "http://www.linkedin.com/in/pabakindu",
+    "expertise": "Cyber Security",
+    "status": "mentor",
+    "image": "/data/images/G12174PI - pabak indu.jpg"
   },
   {
     "id": 7,
@@ -98,5 +98,65 @@
     "expertise": "Machine Learning and applications, Computer Vision, Human Computer Interaction",
     "status": "mentor",
     "image": "/data/images/image - Piyali Datta.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Prof. Bibekananda Kundu",
+    "email": "bibekanandakundu.iem@gmail.com",
+    "contact": "",
+    "linkedin": "",
+    "expertise": "Sentiment Analysis, Emotion Analysis, Empathetic Conversational Agent",
+    "status": "mentor",
+    "image": "/data/images/Bibekananda.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Prof. (Dr.) Chandrima Thakur",
+    "email": "chandrima.thakur@iem.edu.in",
+    "contact": "",
+    "linkedin": "www.linkedin.com/in/saugataghosh1976",
+    "expertise": "Intelligent Reflecting Surfaces (IRS), RF Energy Harvesting",
+    "status": "mentor",
+    "image": "/data/images/Chandrima.jpg"
+  },
+  {
+    "id": 13,
+    "name": "SAUGATA GHOSH",
+    "email": "saugata.ghosh@iem.edu.in",
+    "contact": "8017024589",
+    "linkedin": "www.linkedin.com/in/saugataghosh1976",
+    "expertise": "FINANCE",
+    "status": "mentor",
+    "image": "/data/images/SAUGATA GHOSH .JPG - Saugata Ghosh.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Dr. Somenath Kuiry",
+    "email": "somenath.kuiry@iem.edu.in",
+    "contact": "7478476819",
+    "linkedin": "",
+    "expertise": "Deep Learning, Quantum Computing",
+    "status": "ex-mentor",
+    "image": "/data/images/self - Somenath kuiry.png"
+  },
+  {
+    "id": 15,
+    "name": "Prof. (Dr.) Sreya Ghosh",
+    "email": "",
+    "contact": "",
+    "linkedin": "",
+    "expertise": "AI/ML-based solutions for Intelligent Transportation Systems, 5G/6G Communication Paradigms",
+    "status": "ex-mentor",
+    "image": "/data/images/SreyaGhosh.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Dr. Swarnendu Ghosh",
+    "email": "swarnendu.ghosh@iem.edu.in",
+    "contact": "",
+    "linkedin": "",
+    "expertise": "Artificial Intelligence & Machine Learning",
+    "status": "ex-mentor",
+    "image": "/data/images/Swarnendu Ghosh.jpg"
   }
 ]

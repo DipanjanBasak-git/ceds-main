@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "name": "Prof. (Dr.) Satyajit Chakrabarti",
+    "name": "Prof. Banani Chakrabarti",
     "position": "President",
-    "department": "President, IEM-UEM Group",
+    "department": "IEM-UEM Group",
     "bio": "Leading the IEM-UEM Group with a vision for excellence in education and research."
   },
   {
     "id": 2,
     "name": "Prof. (Dr.) Satyajit Chakrabarti",
-    "position": "Chairman",
-    "department": "Director, IEM-UEM Group",
+    "position": "Director",
+    "department": "IEM-UEM Group",
     "bio": "Directing the strategic initiatives and academic programs across the group."
   },
   {
     "id": 3,
     "name": "Prof. Amartya Mukherjee",
-    "position": "Secretary",
-    "department": "HOD, Dept. of CSE(AIML)",
+    "position": "Convener",
+    "department": "HOD, Dept. of CSE(AIML), CSBS",
     "bio": "Leading the Department of Computer Science and Engineering (AIML) division."
   },
   {
     "id": 4,
-    "name": "Prof. Ayan Kr. Panja",
-    "position": "Convenor",
-    "department": "Asst. HOD, Dept. of CSE(AIML)",
-    "bio": "Coordinating research activities and academic operations for the CEDS centre."
+    "name": "Prof. Dr. Subhadip Chandra",
+    "position": "Centre-In-Charge",
+    "department": "Asst. Prof, Dept. of CSE(AIML), CSBS",
+    "bio": ""
   },
   {
     "id": 5,
-    "name": "Prof. (Dr.) Swarnendu Ghosh",
-    "position": "Centre-in-Charge",
-    "department": "Assoc. Prof, Dept. of CSE(AIML)",
-    "bio": "Managing day-to-day operations and research initiatives at the Centre for Excellence in Data Science."
+    "name": "Prof. Ankita Ray Chowdhury",
+    "position": "Coordinator",
+    "department": "Asst. Prof, Dept. of CSE(AIML), CSBS",
+    "bio": ""
   }
 ]

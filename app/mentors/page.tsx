@@ -21,10 +21,11 @@ export default function MentorsPage() {
     fetch('/data/mentors.json')
       .then((res) => res.json())
       .then(setMentors)
-      .catch(() => {})
+      .catch(() => { })
   }, [])
 
   const currentMentors = mentors.filter((m) => m.status === 'mentor')
+  const exMentors = mentors.filter((m) => m.status === 'ex-mentor')
 
   return (
     <>
@@ -108,6 +109,52 @@ export default function MentorsPage() {
               </div>
             ))}
           </div>
+
+          {/* Ex. Mentors Section */}
+          {exMentors.length > 0 && (
+            <div className="mt-20">
+              {/* Divider + heading */}
+              <div className="flex items-center gap-4 mb-10">
+                <div className="flex-1 h-px bg-gray-200" />
+                <div className="text-center">
+                  <h2 className="text-2xl font-bold text-gray-800">Ex. Mentors</h2>
+                </div>
+                <div className="flex-1 h-px bg-gray-200" />
+              </div>
+
+              {/* Ex-mentor cards */}
+              <div className="flex flex-wrap justify-center gap-6">
+                {exMentors.map((mentor) => (
+                  <div
+                    key={mentor.id}
+                    className="group w-[200px] rounded-2xl border border-gray-100 bg-white overflow-hidden text-center p-5 hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                  >
+                    <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-4 ring-2 ring-gray-200">
+                      {mentor.image ? (
+                        <img
+                          src={mentor.image}
+                          alt={mentor.name}
+                          className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                        />
+                      ) : (
+                        <div className="w-full h-full flex items-center justify-center text-gray-300 text-2xl font-bold">
+                          {mentor.name.charAt(0)}
+                        </div>
+                      )}
+                    </div>
+                    <h4 className="text-[0.875rem] font-semibold text-gray-900 leading-tight mb-1">
+                      {mentor.name}
+                    </h4>
+                    {mentor.expertise && (
+                      <p className="text-[0.6875rem] text-gray-500 leading-snug">
+                        {mentor.expertise}
+                      </p>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </section>
     </>

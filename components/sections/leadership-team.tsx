@@ -1,42 +1,42 @@
 'use client'
 
+import Image from 'next/image'
 import { useReveal } from '@/hooks/useReveal'
-import { Crown, User, ClipboardList, Users, Settings } from 'lucide-react'
 
 const leaders = [
   {
-    name: 'Prof. (Dr.) Satyajit Chakrabarti',
+    name: 'Prof. Banani Chakrabarti',
     role: 'President',
     department: 'President, IEM-UEM Group',
-    icon: Crown,
+    image: '/data/images/Banani.jpg',
     featured: true,
   },
   {
     name: 'Prof. (Dr.) Satyajit Chakrabarti',
-    role: 'Chairman',
+    role: 'Director',
     department: 'Director, IEM-UEM Group',
-    icon: User,
+    image: '/data/images/Prof Dr Satyajit C.jpg',
     featured: true,
   },
   {
     name: 'Prof. Amartya Mukherjee',
-    role: 'Secretary',
+    role: 'Convener',
     department: 'HOD, Dept. of CSE(AIML)',
-    icon: ClipboardList,
+    image: '/data/images/Amartya Mukherjee.jpg',
     featured: false,
   },
   {
-    name: 'Prof. Ayan Kr. Panja',
-    role: 'Convenor',
-    department: 'Asst. HOD, Dept. of CSE(AIML)',
-    icon: Users,
+    name: 'Prof. Dr. Subhadip Chandra',
+    role: 'Centre-In-Charge',
+    department: 'Asst. Prof, Dept. of CSE(AIML), CSBS',
+    image: '/data/images/g12169sc (2) - subhadip chandra.jpg',
     featured: false,
   },
   {
-    name: 'Prof. (Dr.) Swarnendu Ghosh',
-    role: 'Centre-in-Charge',
-    department: 'Assoc. Prof, Dept. of CSE(AIML)',
-    icon: Settings,
+    name: 'Prof. Ankita Ray Chowdhury',
+    role: 'Coordinator',
+    department: 'Asst. Prof, Dept. of CSE(AIML), CSBS',
+    image: '/data/images/ankita - ANKITA RAY CHOWDHURY.jpg',
     featured: false,
   },
 ]
@@ -78,12 +78,18 @@ export default function LeadershipTeam() {
                 key={leader.role}
                 className="w-[280px] p-6 rounded-2xl border border-white/10 bg-white/[0.04] backdrop-blur-sm text-center group hover:bg-white/[0.07] transition-all duration-300"
               >
-                <div className="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-5 bg-primary/20">
-                  <leader.icon className="w-6 h-6 text-primary" />
+                <div className="w-30 h-30 rounded-full overflow-hidden mx-auto mb-5 ring-2 ring-primary/30">
+                  <Image
+                    src={leader.image}
+                    alt={leader.name}
+                    width={80}
+                    height={80}
+                    className="w-full h-full object-cover object-top"
+                  />
                 </div>
-                <p className="text-[0.6875rem] font-bold tracking-[0.15em] uppercase text-primary/70 mb-2">
+                <span className="inline-block px-3 py-1 rounded-full text-[0.625rem] font-bold tracking-[0.15em] uppercase bg-primary text-white">
                   {leader.role}
-                </p>
+                </span>
                 <h3 className="text-[1rem] font-bold text-white mb-1">
                   {leader.name}
                 </h3>
@@ -103,12 +109,18 @@ export default function LeadershipTeam() {
                 key={leader.role}
                 className="w-[240px] p-5 rounded-2xl border border-white/8 bg-white/[0.03] text-center group hover:bg-white/[0.06] transition-all duration-300"
               >
-                <div className="w-11 h-11 rounded-xl flex items-center justify-center mx-auto mb-4 bg-accent/20">
-                  <leader.icon className="w-5 h-5 text-accent/80" />
+                <div className="w-30 h-30 rounded-full overflow-hidden mx-auto mb-4 ring-2 ring-accent/20">
+                  <Image
+                    src={leader.image}
+                    alt={leader.name}
+                    width={64}
+                    height={64}
+                    className="w-full h-full object-cover object-top"
+                  />
                 </div>
-                <p className="text-[0.625rem] font-bold tracking-[0.15em] uppercase text-accent/60 mb-1.5">
+                <span className="inline-block px-2.5 py-0.5 rounded-full text-[0.5625rem] font-bold tracking-[0.15em] uppercase bg-accent text-white mb-2">
                   {leader.role}
-                </p>
+                </span>
                 <h3 className="text-[0.9375rem] font-bold text-white mb-1">
                   {leader.name}
                 </h3>
