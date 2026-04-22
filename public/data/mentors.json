@@ -38,5 +38,65 @@
     "expertise": "Computer Vision, ADAS",
     "status": "mentor",
     "image": "/data/images/g12169sc (2) - subhadip chandra.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Pabak Indu",
+    "email": "pabak.indu@iem.edu.in",
+    "contact": "9433573529",
+    "linkedin": "http://www.linkedin.com/in/pabakindu",
+    "expertise": "Cyber Security",
+    "status": "mentor",
+    "image": "/data/images/G12174PI - pabak indu.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Ankita Ray Chowdhury",
+    "email": "ankita.raychowdhury@iem.edu.in",
+    "contact": "9874739669",
+    "linkedin": "http://linkedin.com/in/ankita-ray-chowdhury-3a9131ba",
+    "expertise": "Communication and Network, IoT",
+    "status": "mentor",
+    "image": "/data/images/ankita - ANKITA RAY CHOWDHURY.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Swati Chowdhuri",
+    "email": "swati.chowdhuri@iem.edu.in",
+    "contact": "8617208474",
+    "linkedin": "https://www.linkedin.com/in/dr-swati-chowdhuri-30b37a226/",
+    "expertise": "Wireless Communication, Signal Processing ML,BCI",
+    "status": "mentor",
+    "image": "/data/images/S Chowdhuri - Swati Chowdhuri.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Rakesh Das",
+    "email": "rakesh.das@iem.edu.in",
+    "contact": "7059070278",
+    "linkedin": "",
+    "expertise": "Quantum Computing",
+    "status": "mentor",
+    "image": "/data/images/G1251RD - Rakesh Das.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Sukanya Mitra",
+    "email": "mitrasukanya88@gmail.com",
+    "contact": "",
+    "linkedin": "",
+    "expertise": "Computer Vision, Signal Processing, Artificial Intelligence, Condition Monitoring",
+    "status": "mentor",
+    "image": "/data/images/9 - Dr. Sukanya Mitra.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Dr. Piyali Datta",
+    "email": "piyali.datta@iem.edu.in",
+    "contact": "7866038980",
+    "linkedin": "",
+    "expertise": "Machine Learning and applications, Computer Vision, Human Computer Interaction",
+    "status": "mentor",
+    "image": "/data/images/image - Piyali Datta.jpeg"
   }
 ]
