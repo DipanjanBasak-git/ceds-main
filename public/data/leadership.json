@@ -4,34 +4,39 @@
     "name": "Prof. Banani Chakrabarti",
     "position": "President",
     "department": "IEM-UEM Group",
-    "bio": "Leading the IEM-UEM Group with a vision for excellence in education and research."
+    "bio": "Leading the IEM-UEM Group with a vision for excellence in education and research.",
+    "image": "/data/images/Banani.jpg"
   },
   {
     "id": 2,
     "name": "Prof. (Dr.) Satyajit Chakrabarti",
     "position": "Director",
     "department": "IEM-UEM Group",
-    "bio": "Directing the strategic initiatives and academic programs across the group."
+    "bio": "Directing the strategic initiatives and academic programs across the group.",
+    "image": "/data/images/Prof Dr Satyajit C.jpg"
   },
   {
     "id": 3,
     "name": "Prof. (Dr.) Amartya Mukherjee",
     "position": "Convener",
     "department": "HOD, Dept. of CSE(AIML), CSBS",
-    "bio": "Leading the Department of Computer Science and Engineering (AIML) division."
+    "bio": "Leading the Department of Computer Science and Engineering (AIML) division.",
+    "image": "/data/images/Amartya Mukherjee.jpg"
   },
   {
     "id": 4,
     "name": "Prof. (Dr.) Subhadip Chandra",
     "position": "Centre-In-Charge",
     "department": "Asst. Prof, Dept. of CSE(AIML), CSBS",
-    "bio": ""
+    "bio": "",
+    "image": "/data/images/g12169sc (2) - subhadip chandra.jpeg"
   },
   {
     "id": 5,
     "name": "Prof. Ankita Ray Chowdhury",
     "position": "Coordinator",
     "department": "Asst. Prof, Dept. of CSE(AIML), CSBS",
-    "bio": ""
+    "bio": "",
+    "image": "/data/images/ankita - ANKITA RAY CHOWDHURY.jpg"
   }
 ]

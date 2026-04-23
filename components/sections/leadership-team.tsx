@@ -29,7 +29,7 @@ const leaders = [
     name: 'Prof. (Dr.) Subhadip Chandra',
     role: 'Centre-In-Charge',
     department: 'Asst. Prof, Dept. of CSE(AIML), CSBS',
-    image: '/data/images/g12169sc (2) - subhadip chandra.jpg',
+    image: '/data/images/g12169sc (2) - subhadip chandra.jpeg',
     featured: false,
   },
   {
