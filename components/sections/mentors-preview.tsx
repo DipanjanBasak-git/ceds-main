@@ -96,7 +96,7 @@ export default function MentorsPreview() {
                           className="inline-flex items-center gap-2 text-[0.8125rem] font-medium text-primary hover:text-primary/80 transition-colors"
                         >
                           <Mail className="w-3.5 h-3.5" />
-                          {mentor.email}
+                          Email
                         </a>
                       )}
                     </div>
@@ -162,7 +162,6 @@ function ExMentorsSection({ mentors }: { mentors: Mentor[] }) {
       <div className="flex items-center gap-4 mb-10">
         <div className="flex-1 h-px" style={{ background: 'var(--border)' }} />
         <div className="text-center">
-          <p className="eyebrow mb-1 !text-muted-foreground/60">Alumni</p>
           <h3 className="text-[1.5rem] font-bold" style={{ color: 'var(--foreground)' }}>
             Ex. Mentors
           </h3>

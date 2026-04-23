@@ -19,14 +19,14 @@ const leaders = [
     featured: true,
   },
   {
-    name: 'Prof. Amartya Mukherjee',
+    name: 'Prof. (Dr.) Amartya Mukherjee',
     role: 'Convener',
     department: 'HOD, Dept. of CSE(AIML)',
     image: '/data/images/Amartya Mukherjee.jpg',
     featured: false,
   },
   {
-    name: 'Prof. Dr. Subhadip Chandra',
+    name: 'Prof. (Dr.) Subhadip Chandra',
     role: 'Centre-In-Charge',
     department: 'Asst. Prof, Dept. of CSE(AIML), CSBS',
     image: '/data/images/g12169sc (2) - subhadip chandra.jpg',
